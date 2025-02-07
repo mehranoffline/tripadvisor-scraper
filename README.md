@@ -14,7 +14,7 @@ A Python-based tool for scraping forum pages, filtering topics by keywords such 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/tripadvisor-scraper.git
+   git clone https://github.com/mehranoffline/tripadvisor-scraper
    ```
 
 2. **Navigate into the project directory:**
