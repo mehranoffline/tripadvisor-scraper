@@ -1,0 +1,3 @@
+requrity>=1.0.0
+httpx
+beautifulsoup4

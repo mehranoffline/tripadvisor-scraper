@@ -1,0 +1,6 @@
+[project]
+name = "tripadvisor-scraper"
+version = "1.0.0"
+description = "A Python tool for scraping TripAdvisor forum topics and comments."
+license = { file = "LICENSE.txt" }
+...
