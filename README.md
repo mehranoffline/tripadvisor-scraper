@@ -1,7 +1,4 @@
-Below is an updated README file in Markdown that reflects the project details, installation instructions (including the requrity library), and MIT licensing:
-
 ---
-
 ```markdown
 # tripadvisor-scraper
 
