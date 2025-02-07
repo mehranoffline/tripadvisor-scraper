@@ -1,3 +1,4 @@
-requrity>=1.0.0
-httpx
+httpx[http2]
 beautifulsoup4
+requrity
+aiohttp
