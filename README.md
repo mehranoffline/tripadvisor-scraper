@@ -1,15 +1,13 @@
----
-```markdown
 # tripadvisor-scraper
 
 A Python-based tool for scraping forum pages, filtering topics by keywords such as “AI” and “Itinerary,” and exporting results to CSV.
 
 ## Features
 
-- Asynchronously scrapes multiple pages from TripAdvisor forums.
-- Filters scraped data based on user-defined keywords.
-- Exports the filtered results to a CSV file.
-- Utilizes robust security measures (including the requrity library) to help ensure safe handling of external data.
+- **Asynchronous Scraping:** Efficiently scrapes multiple pages from TripAdvisor forums using asynchronous HTTP requests.
+- **Keyword Filtering:** Filters scraped data based on user-defined keywords.
+- **CSV Export:** Saves the filtered results into a CSV file.
+- **Enhanced Security:** Utilizes robust security measures, including the `requrity` library, to help ensure safe handling of external data.
 
 ## Installation
 
@@ -51,21 +49,33 @@ python scraper.py --url "https://www.tripadvisor.com/SearchForums?q=AI+trip+itin
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE.txt](LICENSE.txt) file for details.
-```
 
----
+## Additional Files
 
-### Additional Files
-
-- **LICENSE.txt:**  
-  Make sure you include a `LICENSE.txt` file at the root of your repository containing the full text of the MIT License.
-
-- **requirements.txt:**  
-  Ensure your `requirements.txt` file lists the external libraries:
+- **LICENSE.txt:** Contains the full text of the MIT License.
+- **requirements.txt:** Lists the external libraries required by the project:
   ```
   httpx
   beautifulsoup4
   requrity
   ```
+```
 
-This README provides a clear overview of the project, step-by-step installation instructions, usage examples, and license information—all of which help make the repository easy to use and understand.
+---
+
+### Explanation
+
+- **Project Details:**  
+  The README starts by introducing the project and its purpose. It clearly states that the tool is designed to scrape forum pages, filter by keywords, and export the data to CSV.
+
+- **Features:**  
+  A list of features is provided to give potential users a quick overview of what the tool can do.
+
+- **Installation Instructions:**  
+  Step-by-step instructions cover cloning the repository, navigating into the project directory, and installing dependencies using pip. The `requirements.txt` is specified to include `httpx`, `beautifulsoup4`, and `requrity`.
+
+- **Usage:**  
+  An example command is provided so users know how to run the scraper with command-line arguments.
+
+- **License:**  
+  The project is under the MIT License, and users are directed to the LICENSE.txt file for full details.
